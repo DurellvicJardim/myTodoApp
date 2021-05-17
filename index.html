@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>To-do App</title>
+</head>
+<body>
+    <header>
+    <h1><span class="color-change">Todo</span>List</h1>
+    </header>
+
+    <div class="inputBar">
+    	   <input type="text" class="input" placeholder="What Do You Want to Do...">
+           <input type="date" class="dueDate">
+    	   <button class="addButton"><i class="fas fa-plus"></i></button>
+    </div>
+    <div class="listContainer">
+        <!--
+        <div class="item">
+            <input type="text" class="listInput" disabled>
+            <button class="doneButton"><i class="far fa-check-circle"></i></button>
+            <button class="editButton"><i class="fas fa-pen-fancy"></i></button>
+            <button class="deleteButton"><i class="far fa-trash-alt"></i></button>
+        </div>
+        -->
+    </div>
+
+    <div class="sort">
+        <button>Sort Alphabetically</button>
+    </div>
+    <script src="./scripts/script.js"></script>
+    
+</body>
+</html>

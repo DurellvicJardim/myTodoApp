@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(90deg, #01e7fc, #00ff9d);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    font-size: 2rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: white;
+}
+
+.color-change {
+font-weight: bold;
+color: #00a28d;
+}
+
+.inputBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inputBar .input{
+    padding: 10px;
+    min-height: 50px;
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.dueDate {
+    padding: 10px;
+    min-height: 50px;
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 188px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.addButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin: 0.25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.inputBar button:hover{
+    background-color: #00a28d;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.listInput {
+    padding: 10px;
+    min-height: 50px;
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 525px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.listContainer button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.listContainer button:hover{
+    background-color: #50ffbc;
+}
+
+.sort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sort button{
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin: 0.25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
